@@ -1,0 +1,4 @@
+# Cada 'if' que tenga un 'and' es una esquina (aun que tambien hay coordenadas con numeros '0').
+# Si se esta en un eje 'x' que cumple alguna condicional, la pieza sube o baja (depende de 'x') por 
+# el eje 'y', hasta llegar a un eje 'y' que cumpla una condicional. Si esto ocurre, la pieza se
+# mueve por el eje 'x'. Es un ciclo. Por cada movimiento, el dado se resta en 1, hasta llegar a '0'
